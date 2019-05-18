@@ -13,7 +13,13 @@ class CharacterCard extends React.Component {
                 <img src={this.props.image}/>
                 <h3>{this.props.name}</h3>
                 </Link>
-                <button>SEPETE EKLE</button>
+                <button onClick={(e)=>{this.props.basketAction('Add',
+                    {
+                        id: this.props.id,
+                        name: this.props.name,
+                        image: this.props.image,
+                        price: 100
+                    })}}>SEPETE EKLE</button>
             </div>
         )
     }

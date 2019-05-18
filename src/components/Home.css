@@ -1,6 +1,8 @@
 .character-list {
     width:720px;
     margin:0 auto;
+    display:inline-block;
+    vertical-align: top;
 }
 .character-list .card {
     display: inline-block;
@@ -13,4 +15,8 @@
     width:100%;
     display:block;
     border-radius:6px;
+}
+.basket {
+    display: inline-block;
+    vertical-align: top;
 }

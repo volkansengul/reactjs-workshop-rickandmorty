@@ -9,6 +9,7 @@ import Reducers from './reducers';
 import Header from './components/Header';
 import Home from './components/Home';
 import Detail from './components/Detail';
+import Basket from './components/Basket';
 
 import './App.css';
 
@@ -25,6 +26,9 @@ class App extends React.Component{
                    <Route exact path={'/'} component={Home} />
                    <Route path={'/detail/:myId?'} component={Detail} />
                 </>
+                <div className={'basket'}>
+                    <Basket/>
+                </div>
             </BrowserRouter>
             </Provider>
         );
