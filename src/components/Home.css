@@ -1,0 +1,7 @@
+.character-list {
+    display:flex;
+    flex-direction: row;
+}
+.character-list > div {
+    flex:1
+}
