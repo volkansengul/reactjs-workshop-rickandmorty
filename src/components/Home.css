@@ -1,7 +1,16 @@
 .character-list {
-    display:flex;
-    flex-direction: row;
+    width:720px;
+    margin:0 auto;
 }
-.character-list > div {
-    flex:1
+.character-list .card {
+    display: inline-block;
+    max-width:180px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.character-list img {
+    width:100%;
+    display:block;
+    border-radius:6px;
 }

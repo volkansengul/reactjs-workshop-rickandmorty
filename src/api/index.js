@@ -15,4 +15,8 @@ export class Api {
     characterList(endPoint='character'){
         return this.callApi(this.apiUrl+endPoint);
     }
+
+    character(endPoint='character',characterId){
+        return this.callApi(this.apiUrl+endPoint+'/'+characterId);
+    }
 }
